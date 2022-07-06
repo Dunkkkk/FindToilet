@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2635219BB667AEB0CC817AC /* Pods_StudyForMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544F9B2E1EE21597A712BD53 /* Pods_StudyForMVVM.framework */; };
+		D40BD60C28730E4700CE194E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BD60B28730E4700CE194E /* MainViewModel.swift */; };
+		D40BD60E287313B800CE194E /* CommonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BD60D287313B800CE194E /* CommonExtention.swift */; };
+		D40BD611287317CA00CE194E /* ApIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BD610287317CA00CE194E /* ApIConstants.swift */; };
+		D40BD6142873197500CE194E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BD6132873197500CE194E /* NetworkService.swift */; };
+		D40BD61628731BC900CE194E /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40BD61528731BC900CE194E /* MainModel.swift */; };
+		D42D885628756D8000CBFD7B /* RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D885528756D8000CBFD7B /* RxExtension.swift */; };
+		D42D885828756E4E00CBFD7B /* CommonEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D885728756E4E00CBFD7B /* CommonEnum.swift */; };
+		D42D885C2875A2F600CBFD7B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42D885B2875A2F600CBFD7B /* TabBarController.swift */; };
+		D4BDC48D287303D500CD6CFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BDC48C287303D500CD6CFF /* AppDelegate.swift */; };
+		D4BDC48F287303D500CD6CFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BDC48E287303D500CD6CFF /* SceneDelegate.swift */; };
+		D4BDC496287303D600CD6CFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC495287303D600CD6CFF /* Assets.xcassets */; };
+		D4BDC499287303D600CD6CFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC497287303D600CD6CFF /* LaunchScreen.storyboard */; };
+		D4BDC4C72873047600CD6CFF /* map_pinup_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A22873047600CD6CFF /* map_pinup_custom@3x.png */; };
+		D4BDC4C82873047600CD6CFF /* map_pin_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A32873047600CD6CFF /* map_pin_custom.png */; };
+		D4BDC4C92873047600CD6CFF /* shadow_balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A42873047600CD6CFF /* shadow_balloon.png */; };
+		D4BDC4CA2873047600CD6CFF /* map_pinup.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A52873047600CD6CFF /* map_pinup.png */; };
+		D4BDC4CB2873047600CD6CFF /* detail_button.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A62873047600CD6CFF /* detail_button.png */; };
+		D4BDC4CC2873047600CD6CFF /* map_pin_custom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A72873047600CD6CFF /* map_pin_custom@3x.png */; };
+		D4BDC4CD2873047600CD6CFF /* map_pinup@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A82873047600CD6CFF /* map_pinup@3x.png */; };
+		D4BDC4CE2873047600CD6CFF /* map_pin_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4A92873047600CD6CFF /* map_pin_shadow@3x.png */; };
+		D4BDC4CF2873047600CD6CFF /* copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AA2873047600CD6CFF /* copyright.png */; };
+		D4BDC4D02873047600CD6CFF /* th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AB2873047600CD6CFF /* th_line.png */; };
+		D4BDC4D12873047600CD6CFF /* map_pin_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AC2873047600CD6CFF /* map_pin_red@3x.png */; };
+		D4BDC4D22873047600CD6CFF /* daum_copyright.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AD2873047600CD6CFF /* daum_copyright.png */; };
+		D4BDC4D32873047600CD6CFF /* map_pin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AE2873047600CD6CFF /* map_pin@3x.png */; };
+		D4BDC4D42873047600CD6CFF /* map_present_tracking.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4AF2873047600CD6CFF /* map_present_tracking.png */; };
+		D4BDC4D52873047600CD6CFF /* map_pin_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4B02873047600CD6CFF /* map_pin_red.png */; };
+		D4BDC4D62873047600CD6CFF /* info_box.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BA2873047600CD6CFF /* info_box.png */; };
+		D4BDC4D72873047600CD6CFF /* point_sprite.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BB2873047600CD6CFF /* point_sprite.png */; };
+		D4BDC4D82873047600CD6CFF /* map_pinup_custom.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BC2873047600CD6CFF /* map_pinup_custom.png */; };
+		D4BDC4D92873047600CD6CFF /* info_box_tail.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BD2873047600CD6CFF /* info_box_tail.png */; };
+		D4BDC4DA2873047600CD6CFF /* noimage256.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BE2873047600CD6CFF /* noimage256.png */; };
+		D4BDC4DB2873047600CD6CFF /* map_present_direction.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4BF2873047600CD6CFF /* map_present_direction.png */; };
+		D4BDC4DC2873047600CD6CFF /* map_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C02873047600CD6CFF /* map_pin.png */; };
+		D4BDC4DD2873047600CD6CFF /* map_present.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C12873047600CD6CFF /* map_present.png */; };
+		D4BDC4DE2873047600CD6CFF /* noimage.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C22873047600CD6CFF /* noimage.png */; };
+		D4BDC4DF2873047600CD6CFF /* map_present_background_update.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C32873047600CD6CFF /* map_present_background_update.png */; };
+		D4BDC4E02873047600CD6CFF /* daum_th_line.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C42873047600CD6CFF /* daum_th_line.png */; };
+		D4BDC4E12873047600CD6CFF /* map_pin_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = D4BDC4C52873047600CD6CFF /* map_pin_shadow.png */; };
+		D4BDC4E22873047600CD6CFF /* DaumMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4C62873047600CD6CFF /* DaumMap.framework */; };
+		D4BDC4E5287304FE00CD6CFF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4E4287304FE00CD6CFF /* OpenGLES.framework */; };
+		D4BDC4E72873050600CD6CFF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4E62873050600CD6CFF /* SystemConfiguration.framework */; };
+		D4BDC4E92873051200CD6CFF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4E82873051200CD6CFF /* CoreLocation.framework */; };
+		D4BDC4EB2873051900CD6CFF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4EA2873051900CD6CFF /* QuartzCore.framework */; };
+		D4BDC4ED2873052C00CD6CFF /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4EC2873052500CD6CFF /* libc++.tbd */; };
+		D4BDC4EF2873053900CD6CFF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4EE2873053400CD6CFF /* libxml2.tbd */; };
+		D4BDC4F12873054400CD6CFF /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BDC4F02873053F00CD6CFF /* libsqlite3.tbd */; };
+		D4BDC4F4287306AF00CD6CFF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BDC4F3287306AF00CD6CFF /* MainViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		544F9B2E1EE21597A712BD53 /* Pods_StudyForMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyForMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7292579FCB45A4FCD523EF /* Pods-StudyForMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyForMVVM.debug.xcconfig"; path = "Target Support Files/Pods-StudyForMVVM/Pods-StudyForMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		B42812510156128ADAB48C73 /* Pods-StudyForMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyForMVVM.release.xcconfig"; path = "Target Support Files/Pods-StudyForMVVM/Pods-StudyForMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		D40BD60B28730E4700CE194E /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		D40BD60D287313B800CE194E /* CommonExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonExtention.swift; sourceTree = "<group>"; };
+		D40BD610287317CA00CE194E /* ApIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApIConstants.swift; sourceTree = "<group>"; };
+		D40BD6132873197500CE194E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		D40BD61528731BC900CE194E /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		D42D885528756D8000CBFD7B /* RxExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxExtension.swift; sourceTree = "<group>"; };
+		D42D885728756E4E00CBFD7B /* CommonEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonEnum.swift; sourceTree = "<group>"; };
+		D42D885B2875A2F600CBFD7B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D4BDC489287303D500CD6CFF /* StudyForMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyForMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BDC48C287303D500CD6CFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D4BDC48E287303D500CD6CFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D4BDC495287303D600CD6CFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4BDC498287303D600CD6CFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D4BDC49A287303D600CD6CFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4BDC4A22873047600CD6CFF /* map_pinup_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup_custom@3x.png"; sourceTree = "<group>"; };
+		D4BDC4A32873047600CD6CFF /* map_pin_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_custom.png; sourceTree = "<group>"; };
+		D4BDC4A42873047600CD6CFF /* shadow_balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_balloon.png; sourceTree = "<group>"; };
+		D4BDC4A52873047600CD6CFF /* map_pinup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup.png; sourceTree = "<group>"; };
+		D4BDC4A62873047600CD6CFF /* detail_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_button.png; sourceTree = "<group>"; };
+		D4BDC4A72873047600CD6CFF /* map_pin_custom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_custom@3x.png"; sourceTree = "<group>"; };
+		D4BDC4A82873047600CD6CFF /* map_pinup@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pinup@3x.png"; sourceTree = "<group>"; };
+		D4BDC4A92873047600CD6CFF /* map_pin_shadow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_shadow@3x.png"; sourceTree = "<group>"; };
+		D4BDC4AA2873047600CD6CFF /* copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copyright.png; sourceTree = "<group>"; };
+		D4BDC4AB2873047600CD6CFF /* th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = th_line.png; sourceTree = "<group>"; };
+		D4BDC4AC2873047600CD6CFF /* map_pin_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin_red@3x.png"; sourceTree = "<group>"; };
+		D4BDC4AD2873047600CD6CFF /* daum_copyright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_copyright.png; sourceTree = "<group>"; };
+		D4BDC4AE2873047600CD6CFF /* map_pin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map_pin@3x.png"; sourceTree = "<group>"; };
+		D4BDC4AF2873047600CD6CFF /* map_present_tracking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_tracking.png; sourceTree = "<group>"; };
+		D4BDC4B02873047600CD6CFF /* map_pin_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_red.png; sourceTree = "<group>"; };
+		D4BDC4B22873047600CD6CFF /* MTMapPOIItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPOIItem.h; sourceTree = "<group>"; };
+		D4BDC4B32873047600CD6CFF /* MTMapCameraUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCameraUpdate.h; sourceTree = "<group>"; };
+		D4BDC4B42873047600CD6CFF /* MTMapReverseGeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapReverseGeoCoder.h; sourceTree = "<group>"; };
+		D4BDC4B52873047600CD6CFF /* MTMapPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapPolyline.h; sourceTree = "<group>"; };
+		D4BDC4B62873047600CD6CFF /* MTMapLocationMarkerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapLocationMarkerItem.h; sourceTree = "<group>"; };
+		D4BDC4B72873047600CD6CFF /* MTMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapView.h; sourceTree = "<group>"; };
+		D4BDC4B82873047600CD6CFF /* MTMapGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapGeometry.h; sourceTree = "<group>"; };
+		D4BDC4B92873047600CD6CFF /* MTMapCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTMapCircle.h; sourceTree = "<group>"; };
+		D4BDC4BA2873047600CD6CFF /* info_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box.png; sourceTree = "<group>"; };
+		D4BDC4BB2873047600CD6CFF /* point_sprite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = point_sprite.png; sourceTree = "<group>"; };
+		D4BDC4BC2873047600CD6CFF /* map_pinup_custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pinup_custom.png; sourceTree = "<group>"; };
+		D4BDC4BD2873047600CD6CFF /* info_box_tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info_box_tail.png; sourceTree = "<group>"; };
+		D4BDC4BE2873047600CD6CFF /* noimage256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage256.png; sourceTree = "<group>"; };
+		D4BDC4BF2873047600CD6CFF /* map_present_direction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_direction.png; sourceTree = "<group>"; };
+		D4BDC4C02873047600CD6CFF /* map_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin.png; sourceTree = "<group>"; };
+		D4BDC4C12873047600CD6CFF /* map_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present.png; sourceTree = "<group>"; };
+		D4BDC4C22873047600CD6CFF /* noimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noimage.png; sourceTree = "<group>"; };
+		D4BDC4C32873047600CD6CFF /* map_present_background_update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_present_background_update.png; sourceTree = "<group>"; };
+		D4BDC4C42873047600CD6CFF /* daum_th_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = daum_th_line.png; sourceTree = "<group>"; };
+		D4BDC4C52873047600CD6CFF /* map_pin_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map_pin_shadow.png; sourceTree = "<group>"; };
+		D4BDC4C62873047600CD6CFF /* DaumMap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DaumMap.framework; sourceTree = "<group>"; };
+		D4BDC4E4287304FE00CD6CFF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D4BDC4E62873050600CD6CFF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D4BDC4E82873051200CD6CFF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D4BDC4EA2873051900CD6CFF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D4BDC4EC2873052500CD6CFF /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D4BDC4EE2873053400CD6CFF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		D4BDC4F02873053F00CD6CFF /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D4BDC4F22873056F00CD6CFF /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		D4BDC4F3287306AF00CD6CFF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4BDC486287303D500CD6CFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BDC4ED2873052C00CD6CFF /* libc++.tbd in Frameworks */,
+				D4BDC4EB2873051900CD6CFF /* QuartzCore.framework in Frameworks */,
+				D4BDC4F12873054400CD6CFF /* libsqlite3.tbd in Frameworks */,
+				D4BDC4E92873051200CD6CFF /* CoreLocation.framework in Frameworks */,
+				D4BDC4EF2873053900CD6CFF /* libxml2.tbd in Frameworks */,
+				D4BDC4E22873047600CD6CFF /* DaumMap.framework in Frameworks */,
+				D4BDC4E72873050600CD6CFF /* SystemConfiguration.framework in Frameworks */,
+				D4BDC4E5287304FE00CD6CFF /* OpenGLES.framework in Frameworks */,
+				A2635219BB667AEB0CC817AC /* Pods_StudyForMVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4C9B8AAA5D49802D2331B36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AB7292579FCB45A4FCD523EF /* Pods-StudyForMVVM.debug.xcconfig */,
+				B42812510156128ADAB48C73 /* Pods-StudyForMVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D40BD60F287317B200CE194E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D40BD60D287313B800CE194E /* CommonExtention.swift */,
+				D42D885528756D8000CBFD7B /* RxExtension.swift */,
+				D42D885728756E4E00CBFD7B /* CommonEnum.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D40BD6122873196700CE194E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D40BD610287317CA00CE194E /* ApIConstants.swift */,
+				D40BD6132873197500CE194E /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D42D885A2875A29600CBFD7B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D40BD61528731BC900CE194E /* MainModel.swift */,
+				D4BDC4F3287306AF00CD6CFF /* MainViewController.swift */,
+				D40BD60B28730E4700CE194E /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D4BDC480287303D500CD6CFF = {
+			isa = PBXGroup;
+			children = (
+				D4BDC48B287303D500CD6CFF /* StudyForMVVM */,
+				D4BDC48A287303D500CD6CFF /* Products */,
+				D4BDC4E3287304FE00CD6CFF /* Frameworks */,
+				C4C9B8AAA5D49802D2331B36 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D4BDC48A287303D500CD6CFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC489287303D500CD6CFF /* StudyForMVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4BDC48B287303D500CD6CFF /* StudyForMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC49A287303D600CD6CFF /* Info.plist */,
+				D4BDC4A02873047600CD6CFF /* DaumMap.embeddedframework */,
+				D4BDC4F52873095100CD6CFF /* LifeCycle */,
+				D4BDC4F62873095F00CD6CFF /* Assets */,
+				D42D885A2875A29600CBFD7B /* Main */,
+				D40BD60F287317B200CE194E /* Common */,
+				D40BD6122873196700CE194E /* Network */,
+				D42D885B2875A2F600CBFD7B /* TabBarController.swift */,
+			);
+			path = StudyForMVVM;
+			sourceTree = "<group>";
+		};
+		D4BDC4A02873047600CD6CFF /* DaumMap.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC4A12873047600CD6CFF /* Resources */,
+				D4BDC4C62873047600CD6CFF /* DaumMap.framework */,
+			);
+			path = DaumMap.embeddedframework;
+			sourceTree = "<group>";
+		};
+		D4BDC4A12873047600CD6CFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC4A22873047600CD6CFF /* map_pinup_custom@3x.png */,
+				D4BDC4A32873047600CD6CFF /* map_pin_custom.png */,
+				D4BDC4A42873047600CD6CFF /* shadow_balloon.png */,
+				D4BDC4A52873047600CD6CFF /* map_pinup.png */,
+				D4BDC4A62873047600CD6CFF /* detail_button.png */,
+				D4BDC4A72873047600CD6CFF /* map_pin_custom@3x.png */,
+				D4BDC4A82873047600CD6CFF /* map_pinup@3x.png */,
+				D4BDC4A92873047600CD6CFF /* map_pin_shadow@3x.png */,
+				D4BDC4AA2873047600CD6CFF /* copyright.png */,
+				D4BDC4AB2873047600CD6CFF /* th_line.png */,
+				D4BDC4AC2873047600CD6CFF /* map_pin_red@3x.png */,
+				D4BDC4AD2873047600CD6CFF /* daum_copyright.png */,
+				D4BDC4AE2873047600CD6CFF /* map_pin@3x.png */,
+				D4BDC4AF2873047600CD6CFF /* map_present_tracking.png */,
+				D4BDC4B02873047600CD6CFF /* map_pin_red.png */,
+				D4BDC4B12873047600CD6CFF /* Headers */,
+				D4BDC4BA2873047600CD6CFF /* info_box.png */,
+				D4BDC4BB2873047600CD6CFF /* point_sprite.png */,
+				D4BDC4BC2873047600CD6CFF /* map_pinup_custom.png */,
+				D4BDC4BD2873047600CD6CFF /* info_box_tail.png */,
+				D4BDC4BE2873047600CD6CFF /* noimage256.png */,
+				D4BDC4BF2873047600CD6CFF /* map_present_direction.png */,
+				D4BDC4C02873047600CD6CFF /* map_pin.png */,
+				D4BDC4C12873047600CD6CFF /* map_present.png */,
+				D4BDC4C22873047600CD6CFF /* noimage.png */,
+				D4BDC4C32873047600CD6CFF /* map_present_background_update.png */,
+				D4BDC4C42873047600CD6CFF /* daum_th_line.png */,
+				D4BDC4C52873047600CD6CFF /* map_pin_shadow.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D4BDC4B12873047600CD6CFF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC4B22873047600CD6CFF /* MTMapPOIItem.h */,
+				D4BDC4B32873047600CD6CFF /* MTMapCameraUpdate.h */,
+				D4BDC4B42873047600CD6CFF /* MTMapReverseGeoCoder.h */,
+				D4BDC4B52873047600CD6CFF /* MTMapPolyline.h */,
+				D4BDC4B62873047600CD6CFF /* MTMapLocationMarkerItem.h */,
+				D4BDC4B72873047600CD6CFF /* MTMapView.h */,
+				D4BDC4B82873047600CD6CFF /* MTMapGeometry.h */,
+				D4BDC4B92873047600CD6CFF /* MTMapCircle.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		D4BDC4E3287304FE00CD6CFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC4F02873053F00CD6CFF /* libsqlite3.tbd */,
+				D4BDC4EE2873053400CD6CFF /* libxml2.tbd */,
+				D4BDC4EC2873052500CD6CFF /* libc++.tbd */,
+				D4BDC4EA2873051900CD6CFF /* QuartzCore.framework */,
+				D4BDC4E82873051200CD6CFF /* CoreLocation.framework */,
+				D4BDC4E62873050600CD6CFF /* SystemConfiguration.framework */,
+				D4BDC4E4287304FE00CD6CFF /* OpenGLES.framework */,
+				544F9B2E1EE21597A712BD53 /* Pods_StudyForMVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4BDC4F52873095100CD6CFF /* LifeCycle */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC48C287303D500CD6CFF /* AppDelegate.swift */,
+				D4BDC48E287303D500CD6CFF /* SceneDelegate.swift */,
+				D4BDC497287303D600CD6CFF /* LaunchScreen.storyboard */,
+			);
+			path = LifeCycle;
+			sourceTree = "<group>";
+		};
+		D4BDC4F62873095F00CD6CFF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D4BDC495287303D600CD6CFF /* Assets.xcassets */,
+				D4BDC4F22873056F00CD6CFF /* BridgingHeader.h */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4BDC488287303D500CD6CFF /* StudyForMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4BDC49D287303D600CD6CFF /* Build configuration list for PBXNativeTarget "StudyForMVVM" */;
+			buildPhases = (
+				221201CE1958FA01E356C309 /* [CP] Check Pods Manifest.lock */,
+				D4BDC485287303D500CD6CFF /* Sources */,
+				D4BDC486287303D500CD6CFF /* Frameworks */,
+				D4BDC487287303D500CD6CFF /* Resources */,
+				AFB8B6F3ECF022B1ED6F05F2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StudyForMVVM;
+			productName = StudyForMVVM;
+			productReference = D4BDC489287303D500CD6CFF /* StudyForMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4BDC481287303D500CD6CFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D4BDC488287303D500CD6CFF = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D4BDC484287303D500CD6CFF /* Build configuration list for PBXProject "StudyForMVVM" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4BDC480287303D500CD6CFF;
+			productRefGroup = D4BDC48A287303D500CD6CFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4BDC488287303D500CD6CFF /* StudyForMVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4BDC487287303D500CD6CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4BDC4D92873047600CD6CFF /* info_box_tail.png in Resources */,
+				D4BDC4CE2873047600CD6CFF /* map_pin_shadow@3x.png in Resources */,
+				D4BDC4DC2873047600CD6CFF /* map_pin.png in Resources */,
+				D4BDC4D52873047600CD6CFF /* map_pin_red.png in Resources */,
+				D4BDC4CD2873047600CD6CFF /* map_pinup@3x.png in Resources */,
+				D4BDC4D72873047600CD6CFF /* point_sprite.png in Resources */,
+				D4BDC4D32873047600CD6CFF /* map_pin@3x.png in Resources */,
+				D4BDC4DA2873047600CD6CFF /* noimage256.png in Resources */,
+				D4BDC4DD2873047600CD6CFF /* map_present.png in Resources */,
+				D4BDC4D22873047600CD6CFF /* daum_copyright.png in Resources */,
+				D4BDC4CF2873047600CD6CFF /* copyright.png in Resources */,
+				D4BDC4C92873047600CD6CFF /* shadow_balloon.png in Resources */,
+				D4BDC4CC2873047600CD6CFF /* map_pin_custom@3x.png in Resources */,
+				D4BDC4D02873047600CD6CFF /* th_line.png in Resources */,
+				D4BDC4D82873047600CD6CFF /* map_pinup_custom.png in Resources */,
+				D4BDC499287303D600CD6CFF /* LaunchScreen.storyboard in Resources */,
+				D4BDC4E02873047600CD6CFF /* daum_th_line.png in Resources */,
+				D4BDC4C72873047600CD6CFF /* map_pinup_custom@3x.png in Resources */,
+				D4BDC496287303D600CD6CFF /* Assets.xcassets in Resources */,
+				D4BDC4D42873047600CD6CFF /* map_present_tracking.png in Resources */,
+				D4BDC4E12873047600CD6CFF /* map_pin_shadow.png in Resources */,
+				D4BDC4DB2873047600CD6CFF /* map_present_direction.png in Resources */,
+				D4BDC4DF2873047600CD6CFF /* map_present_background_update.png in Resources */,
+				D4BDC4CB2873047600CD6CFF /* detail_button.png in Resources */,
+				D4BDC4D12873047600CD6CFF /* map_pin_red@3x.png in Resources */,
+				D4BDC4DE2873047600CD6CFF /* noimage.png in Resources */,
+				D4BDC4D62873047600CD6CFF /* info_box.png in Resources */,
+				D4BDC4C82873047600CD6CFF /* map_pin_custom.png in Resources */,
+				D4BDC4CA2873047600CD6CFF /* map_pinup.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		221201CE1958FA01E356C309 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyForMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB8B6F3ECF022B1ED6F05F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyForMVVM/Pods-StudyForMVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyForMVVM/Pods-StudyForMVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyForMVVM/Pods-StudyForMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4BDC485287303D500CD6CFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40BD60E287313B800CE194E /* CommonExtention.swift in Sources */,
+				D40BD6142873197500CE194E /* NetworkService.swift in Sources */,
+				D42D885C2875A2F600CBFD7B /* TabBarController.swift in Sources */,
+				D4BDC4F4287306AF00CD6CFF /* MainViewController.swift in Sources */,
+				D4BDC48D287303D500CD6CFF /* AppDelegate.swift in Sources */,
+				D42D885628756D8000CBFD7B /* RxExtension.swift in Sources */,
+				D42D885828756E4E00CBFD7B /* CommonEnum.swift in Sources */,
+				D4BDC48F287303D500CD6CFF /* SceneDelegate.swift in Sources */,
+				D40BD611287317CA00CE194E /* ApIConstants.swift in Sources */,
+				D40BD61628731BC900CE194E /* MainModel.swift in Sources */,
+				D40BD60C28730E4700CE194E /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4BDC497287303D600CD6CFF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4BDC498287303D600CD6CFF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4BDC49B287303D600CD6CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4BDC49C287303D600CD6CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4BDC49E287303D600CD6CFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7292579FCB45A4FCD523EF /* Pods-StudyForMVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT6KC94KM7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StudyForMVVM/DaumMap.embeddedframework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyForMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pccommen.StudyForMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/changgyoseo/Projects/StudyForMVVM/StudyForMVVM/Assets/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4BDC49F287303D600CD6CFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B42812510156128ADAB48C73 /* Pods-StudyForMVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT6KC94KM7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StudyForMVVM/DaumMap.embeddedframework",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyForMVVM/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pccommen.StudyForMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/changgyoseo/Projects/StudyForMVVM/StudyForMVVM/Assets/BridgingHeader.h;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4BDC484287303D500CD6CFF /* Build configuration list for PBXProject "StudyForMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BDC49B287303D600CD6CFF /* Debug */,
+				D4BDC49C287303D600CD6CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4BDC49D287303D600CD6CFF /* Build configuration list for PBXNativeTarget "StudyForMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4BDC49E287303D600CD6CFF /* Debug */,
+				D4BDC49F287303D600CD6CFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4BDC481287303D500CD6CFF /* Project object */;
+}

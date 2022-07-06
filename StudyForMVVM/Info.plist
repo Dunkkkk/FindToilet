@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>이걸 선택하세요!!!</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>항상필요합니다</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>항상필요합니다</string>
+	<key>KAKAO_APP_KEY</key>
+	<string>eaf52aeb0bcb37dea31d3649651fd91e</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
